@@ -32,7 +32,7 @@ workflow CramToBamFlow {
     File ref_dict
     File input_cram
     String sample_name
-    String gotc_docker = "broadinstitute/genomes-in-the-cloud:2.3.1-1500064817"
+    String gotc_docker = "bmtestacr.azurecr.io/docker/testbroadinstitute/genomes-in-the-cloud:2.3.1-1500064817"
     Int preemptible_tries = 3
   }
 

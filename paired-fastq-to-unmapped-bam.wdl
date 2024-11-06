@@ -47,7 +47,7 @@ workflow ConvertPairedFastQsToUnmappedBamWf {
 
     Boolean make_fofn = false
 
-    String gatk_docker = "broadinstitute/gatk:latest"
+    String gatk_docker = "bmtestacr.azurecr.io/docker/broadinstitute/gatk:latest"
     String gatk_path = "/gatk/gatk"
   }
 
@@ -152,7 +152,7 @@ task CreateFoFN {
     File fofn_list = "~{fofn_name}.list"
   }
   runtime {
-    docker: "ubuntu:latest"
+    docker: "bmtestacr.azurecr.io/docker/library/ubuntu:latest"
     preemptible: true
     maxRetries: 3
   }

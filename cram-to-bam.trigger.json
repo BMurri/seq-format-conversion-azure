@@ -1,5 +1,5 @@
 {
-  "WorkflowUrl": "https://raw.githubusercontent.com/microsoft/seq-format-conversion-azure/main-azure/cram-to-bam.wdl",
+  "WorkflowUrl": "https://raw.githubusercontent.com/BMurri/seq-format-conversion-azure/bmtestacr/cram-to-bam.wdl",
   "WorkflowInputsUrl": "https://raw.githubusercontent.com/microsoft/seq-format-conversion-azure/main-azure/cram-to-bam.inputs.json",
   "WorkflowOptionsUrl": null,
   "WorkflowDependenciesUrl": null

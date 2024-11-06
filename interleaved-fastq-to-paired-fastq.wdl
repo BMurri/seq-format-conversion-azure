@@ -42,7 +42,7 @@ task uninterleave_fqs {
   }
 
   runtime {
-    docker: "ubuntu:latest"
+    docker: "bmtestacr.azurecr.io/docker/library/ubuntu:latest"
     memory: machine_mem_gb + " GB"
     disk: disk_size + " GB"
   }

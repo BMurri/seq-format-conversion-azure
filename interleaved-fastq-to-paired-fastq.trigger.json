@@ -1,5 +1,5 @@
 {
-  "WorkflowUrl": "https://raw.githubusercontent.com/microsoft/seq-format-conversion-azure/main-azure/interleaved-fastq-to-paired-fastq.wdl",
+  "WorkflowUrl": "https://raw.githubusercontent.com/BMurri/seq-format-conversion-azure/bmtestacr/interleaved-fastq-to-paired-fastq.wdl",
   "WorkflowInputsUrl": "https://raw.githubusercontent.com/microsoft/seq-format-conversion-azure/main-azure/interleaved-fastq-to-paired-fastq.inputs.json",
   "WorkflowOptionsUrl": null,
   "WorkflowDependenciesUrl": null
